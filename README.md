@@ -18,8 +18,7 @@ As a user, I want to add a product to my cart and complete the checkout process 
 - The user can add products to the cart.
 - The user can proceed to checkout and complete the purchase.
 
-# Structure:
-
+```txt
 qa-technical-assessment/
 ├── pages/
 │   ├── CartPage.js
@@ -32,7 +31,9 @@ qa-technical-assessment/
 │   └── web/
 │       └── checkout-flow.spec.js
 ├── playwright.config.js
-
+├── package.json
+└── README.md
+```
 # Folder Contents
 
 - `pages/` - Contains Page Object Model classes for the SauceDemo web test flow.
