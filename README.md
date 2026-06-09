@@ -30,13 +30,15 @@ As a user, I want to add a product to my cart and complete the checkout process 
 4. Verify the cart badge shows `3` items.
 5. Open the cart and remove the red t-shirt.
 6. Verify there are `2` items left in the cart.
-7. Click Checkout.
-8. Fill in customer information (first name, last name, postal code).
+7. Click checkout.
+8. Fill customer information (first name, last name, postal code).
 9. Verify the checkout overview contains:
 	- Sauce Labs Backpack
 	- Sauce Labs Fleece Jacket
-10. Click Finish and verify the order confirmation message.
-11. Log out of the website.
+10. Click finish and verify the order confirmation message.
+11. Log out from the application.
+
+Note: I used `test.step` to break flows into  steps for easier debugging and bug/error isolation.
 
 # Structure
 ```txt

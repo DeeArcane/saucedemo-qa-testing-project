@@ -21,9 +21,6 @@ class InventoryPage {
         await this.page.locator('[data-test="shopping-cart-link"]').click();
     }
 
-    async removeRedTShirtFromCart() {
-        await this.page.locator('[data-test="remove-test.allthethings()-t-shirt-(red)"]').click();
-    }
 }
 
 module.exports = { InventoryPage };
