@@ -3,6 +3,7 @@ const { LoginPage } = require('../../pages/LoginPage');
 const { InventoryPage } = require('../../pages/InventoryPage');
 const { CartPage } = require('../../pages/CartPage');
 const { CheckoutPage } = require('../../pages/CheckoutPage');
+const { LogoutPage } = require('../../pages/LogoutPage');
 const { checkoutData } = require('../../test-data/checkoutData');
 
 test.describe('Checkout flow', () => {
@@ -11,6 +12,7 @@ test.describe('Checkout flow', () => {
         const inventory = new InventoryPage(page);
         const cart = new CartPage(page);
         const checkout = new CheckoutPage(page);
+        const logout = new LogoutPage(page);
 
         await login.goto(); // Navigate to the login page
         await login.login(checkoutData.username, checkoutData.password); // Log in with valid credentials
@@ -50,5 +52,8 @@ test.describe('Checkout flow', () => {
 
         // Verifies that the order is successfully completed by checking for the presence of a confirmation message or order summary on the final page.
         await expect(checkout.getOrderConfirmation()).toHaveText(/thank you/i);
+
+        // Log out from the application.
+        await logout.logout();
     });
 });
