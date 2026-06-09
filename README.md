@@ -25,7 +25,8 @@ qa-technical-assessment/
 │   ├── CartPage.js
 │   ├── CheckoutPage.js
 │   ├── InventoryPage.js
-│   └── LoginPage.js
+│   ├── LoginPage.js
+│   └── Logout Page.js
 ├── test-data/
 │   └── checkoutData.js
 ├── tests/
