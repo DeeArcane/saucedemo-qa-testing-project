@@ -18,6 +18,7 @@ As a user, I want to add a product to my cart and complete the checkout process 
 - The user can add products to the cart.
 - The user can proceed to checkout and complete the purchase.
 
+# Structure
 ```txt
 qa-technical-assessment/
 ├── pages/
