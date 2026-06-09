@@ -30,7 +30,7 @@ As a user, I want to add a product to my cart and complete the checkout process 
 4. Verify the cart badge shows `3` items.
 5. Open the cart and remove the red t-shirt.
 6. Verify there are `2` items left in the cart.
-7. Click checkout.
+7. Click Checkout.
 8. Fill in customer information (first name, last name, postal code).
 9. Verify the checkout overview contains:
 	- Sauce Labs Backpack
@@ -71,7 +71,7 @@ The test cases are documented in Excel format and can be found here:
 
 - Added a separate table for observations and improvement suggestions, as I assumed that https://www.saucedemo.com/ should be evaluated like a real e-commerce site in the Philippines.
 
-- I also assumed that the JSONPlaceholder endpoints should behave like a real REST API, even though they are used for testing and prototyping. Because of this, I validated the responses based on common API behavior, such as returning 400 for invalid request bodies, 404 for non-existing resources, and 200 or 201 for successful requests.
+- I also assumed that the JSONPlaceholder endpoints should behave like a real REST API. I validated the responses based on common API behavior, such as returning 400 for invalid request bodies, 404 for non-existing resources, and 200 or 201 for successful requests.
 
 How to run:
 
