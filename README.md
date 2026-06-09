@@ -25,7 +25,8 @@ qa-technical-assessment/
 │   ├── CartPage.js
 │   ├── CheckoutPage.js
 │   ├── InventoryPage.js
-│   └── LoginPage.js
+│   ├── LoginPage.js
+│   └── Logout Page.js
 ├── test-data/
 │   └── checkoutData.js
 ├── tests/
@@ -43,6 +44,11 @@ qa-technical-assessment/
 - `playwright.config.js` - Contains the Playwright configuration for test execution, reporting, and browser settings.
 
 
+# Test Documentation
+
+The test cases are documented in Excel format and can be found here:
+- `docs/QA-Test-Cases.xlsx`
+  
 How to run:
 
 ```bash
