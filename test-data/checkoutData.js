@@ -1,3 +1,4 @@
+// Stores reusable test data for the checkout process to make test maintenance easier.
 const checkoutData = {
     username: 'standard_user',
     password: 'secret_sauce',

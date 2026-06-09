@@ -2,7 +2,9 @@ class InventoryPage {
     constructor(page) {
         this.page = page;
     }
-
+    // Adds three items to the cart: the first, middle, and last items in the inventory list.
+    // This verifies that the cart count updates correctly, confirms that all selected items can be added,
+    // and checks that the remove function works as expected.
     async addBackpackToCart() {
         await this.page.locator('[data-test="add-to-cart-sauce-labs-backpack"]').click();
     }
