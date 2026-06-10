@@ -42,7 +42,7 @@ Note: I used `test.step` to break flows into  steps for easier debugging and bug
 
 # Structure
 ```txt
-qa-technical-assessment/
+saucedemo-qa-testing-project/
 ├── pages/
 │   ├── CartPage.js
 │   ├── CheckoutPage.js
