@@ -1,10 +1,21 @@
 {
-  "name": "qa-technical-assessment",
+  "name": "saucedemo-qa-testing-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "QA testing project for SauceDemo web testing, Playwright automation, and API testing documentation.",
   "main": "index.js",
-  "scripts": {},
-  "keywords": [],
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [
+    "qa",
+    "playwright",
+    "automation-testing",
+    "manual-testing",
+    "api-testing",
+    "saucedemo"
+  ],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
