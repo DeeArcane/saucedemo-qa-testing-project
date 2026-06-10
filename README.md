@@ -1,4 +1,4 @@
-# QA Technical Assessment
+# SauceDemo QA Testing Project
 
 This workspace contains an automated Playwright JavaScript test for the SauceDemo web application: https://www.saucedemo.com/
 
@@ -35,7 +35,7 @@ As a user, I want to add a product to my cart and complete the checkout process 
 9. Verify the checkout overview contains:
 	- Sauce Labs Backpack
 	- Sauce Labs Fleece Jacket
-10. Click finish and verify the order confirmation message.
+10. Click Finish and verify the order confirmation message.
 11. Log out from the application.
 
 Note: I used `test.step` to break flows into  steps for easier debugging and bug/error isolation.
@@ -74,6 +74,8 @@ The test cases are documented in Excel format and can be found here:
 - Added a separate table for observations and improvement suggestions, as I assumed that https://www.saucedemo.com/ should be evaluated like a real e-commerce site in the Philippines.
 
 - I also assumed that the JSONPlaceholder endpoints should behave like a real REST API. I validated the responses based on common API behavior, such as returning 400 for invalid request bodies, 404 for non-existing resources, and 200 or 201 for successful requests.
+
+Note: The links in the Evidence column are Jam.dev links. Jam.dev is an online screen recording tool used to capture and share test execution recordings. I've included these links as evidence of the actual test steps and results during execution.
 
 How to run:
 
